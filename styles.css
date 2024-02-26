@@ -1,0 +1,11 @@
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#hero {
+    background-image: url('img/marvel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
