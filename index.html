@@ -32,10 +32,10 @@
     <div id="hero" class="h-96 xl:flex"></div>
 
     <main>
-      <div  class="flex flex-row p-4 justify-center">
+      <div class="flex flex-row p-4 justify-center">
       <div id="search" class="basis-1/4 p-4">
     <h2 class="text-2xl font-bold flex-row"><label for="name"class>Busqueda</label></h2>
-      <input type="text" id="input-categories"
+      <input type="text" id="input-text-filter"
         class="rounded border shadow w-full"/>
       </div>
 
@@ -61,13 +61,16 @@
           <option value="more-old">Mas viejos</option>
         </select>
       </div>
-        <button class="bg-red-800 rounded border-radius text-white basis-1/8 p-2 text-3xl">Buscar</button>
+        <button id="btn-search" class="bg-red-800 rounded border-radius text-white basis-1/8 p-2 text-3xl">Buscar</button>
     </div>
   </div>
 
   <div>
        <h2 class="text-2xl font-bold flex flex-row p-4">Resultados</h2>
-       <!-- Rendering with JS -->
+
+    <div class="characters-cards grid grid-cols-5 gap-4 p-6"> 
+             <!-- Rendering with JS -->
+    </div>
 
        <div id="pages" class="flex justify-center p-4 m-4">
         <i class="fa-solid fa-angles-left text-3xl p-2 m-2 bg-slate-800 text-white"></i>
